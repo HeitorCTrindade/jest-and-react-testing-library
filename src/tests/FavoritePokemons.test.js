@@ -1,5 +1,5 @@
 import React from 'react';
-import { screen, fireEvent } from '@testing-library/react';
+import { screen } from '@testing-library/react';
 import { FavoritePokemons } from '../pages';
 import renderWithRouter from '../renderWithRouter';
 
@@ -24,7 +24,7 @@ const fakeFavoritesPokemons = [
         map: 'https://cdn2.bulbagarden.net/upload/b/bd/Kanto_Celadon_City_Map.png',
       },
     ],
-    summary: 'This intelligent Pokémon roasts hard berries with electricity to make them tender enough to eat.',
+    summary: 'This intelligent Pokémon roasts hard berries with electricity.',
   },
   {
     id: 4,
@@ -54,7 +54,7 @@ const fakeFavoritesPokemons = [
         map: 'https://cdn2.bulbagarden.net/upload/6/6f/Kanto_Rock_Tunnel_Map.png',
       },
     ],
-    summary: 'The flame on its tail shows the strength of its life force. If it is weak, the flame also burns weakly.',
+    summary: 'The flame on its tail shows the strength of its life force.',
   },
 ];
 
