@@ -3,7 +3,7 @@ import { screen, fireEvent } from '@testing-library/react';
 import App from '../App';
 import renderWithRouter from '../renderWithRouter';
 
-describe('test AppComponent operation', () => {
+describe('test App Component operation', () => {
   test('if header contains links Home, About and Favorite Pokémons', () => {
     renderWithRouter(<App />);
     const homeLink = screen.getByRole('link', { name: 'Home' });
