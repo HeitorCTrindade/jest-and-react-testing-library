@@ -8,6 +8,7 @@ import pokemons from '../data';
 const mockPokemon = pokemons[0];
 
 const onUpdateFavoritePokemons = () => {};
+
 const mockMatch = { params: { id: (mockPokemon.id).toString() } };
 const mockIsPokemonFavoriteById = { 10: false, 25: true };
 
